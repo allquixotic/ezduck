@@ -1,0 +1,29 @@
+{
+  "name": "ezduck",
+  "version": "0.0.1",
+  "description": "Easy DuckDNS service",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "scripts": [ "index.js", "node_modules/**/*.js" ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allquixotic/ezduck.git"
+  },
+  "author": "Sean McNamara <smcnam@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/allquixotic/ezduck/issues"
+  },
+  "homepage": "https://github.com/allquixotic/ezduck#readme",
+  "dependencies": {
+    "network": "^0.5.0",
+    "node-powershell": "^4.0.0",
+    "os-service": "^2.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
